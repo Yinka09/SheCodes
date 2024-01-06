@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="body">
+      <form>
+        <div class="user-input">
+          <input
+            type="search"
+            id="city"
+            name="city"
+            placeholder="Enter a city..."
+            required
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </div>
+      </form>
+
+      <div class="current-weather">
+        <h1>San Francisco</h1>
+        <p>
+          Friday 13:00, few clouds <br />
+          Humidity: <span class="header-span"><strong>76%</strong></span
+          >, Wind:
+          <span class="header-span"><strong>4.02km/h</strong></span>
+          <br />
+          <br />
+        </p>
+      </div>
+      <div>⛅ 10°C</div>
+
+      <div class="weather-forecast">
+        <ul>
+          <li>Fri <span class="weather-emoji">☁</span></li>
+          <div class="weather-value1">
+            <strong>14°C</strong><span class="weather-value2"> - 10°C</span>
+          </div>
+
+          <li>Sat <span class="weather-emoji">🌧</span></li>
+          <div class="weather-value1">
+            <strong>15°C</strong><span class="weather-value2"> - 12°C</span>
+          </div>
+
+          <li>Sun <span class="weather-emoji">☁</span></li>
+          <div class="weather-value1">
+            <strong>15°C</strong><span class="weather-value2"> - 13°C</span>
+          </div>
+
+          <li>Mon <span class="weather-emoji">🌧</span></li>
+          <div class="weather-value1">
+            <strong>15°C</strong><span class="weather-value2"> - 12°C</span>
+          </div>
+
+          <li>Tue <span class="weather-emoji">☁</span></li>
+          <div class="weather-value1">
+            <strong>17°C</strong><span class="weather-value2"> - 13°C</span>
+          </div>
+        </ul>
+      </div>
+
+      <footer>
+        <p class="footer">
+          This project was coded by
+          <a href="https://www.shecodes.io/" class="footer-link"
+            >Kadiri Adeyinka</a
+          >
+          and is
+          <a href="#" class="footer-link" target="_blank"
+            >open-sourced on GitHub</a
+          >
+          and hosted on
+          <a href="#" class="footer-link" target="_blank">Netlify</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

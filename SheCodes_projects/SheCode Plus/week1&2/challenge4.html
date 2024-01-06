@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodes Form</title>
+    <style>
+      .contents {
+        border: 1.5px solid black;
+        border-radius: 4px;
+        padding: 10px 15px;
+        width: 400px;
+        background-color: bisque;
+      }
+      .user-login {
+        display: block;
+        margin: 20px 0;
+      }
+      .header {
+        font-weight: 900;
+        font-size: 20px;
+      }
+      label {
+        display: block;
+        font-size: large;
+      }
+
+      .login-button {
+        padding: 2px 8px;
+        border: 1px solid black;
+        line-height: 20px;
+        font-size: 15px;
+        border-radius: 2px;
+      }
+
+      .input {
+        border: 1px solid black;
+        border-radius: 4px;
+        width: 70%;
+        height: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contents">
+      <div class="header">
+        <h1>Welcome back</h1>
+      </div>
+      <form>
+        <div class="user-login">
+          <label for="email">Enter your email address</label>
+          <input type="email" id="email" class="input" autofocus />
+        </div>
+
+        <div class="user-login">
+          <label for="password">Enter your password</label>
+          <input type="password" id="password" class="input" required />
+        </div>
+
+        <div class="user-login">
+          <input type="submit" value="Login" class="login-button" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

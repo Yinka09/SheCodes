@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <style>
+      body {
+        background-color: whitesmoke;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+      .coloremoji {
+        color: #1a64d6;
+        text-align: center;
+        font-weight: 900;
+        font-size: 40px;
+        margin: 0;
+      }
+      .coloremoji2 {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 35px;
+        color: #1a64d6;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+      .degree {
+        text-align: center;
+        font-weight: normal;
+        font-size: 35px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+      .degree2 {
+        font-weight: bolder;
+        font-size: 35px;
+      }
+      .tomorrow {
+        text-align: center;
+        color: #6d6b66;
+        padding-left: 0px;
+        list-style-type: none;
+      }
+      li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      .tomorrow-deg {
+        font-weight: bolder;
+        color: #000000;
+        font-size: 18px;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .tomorrow-deg1 {
+        font-weight: 500;
+        font-size: 16px;
+        font-family: monospace;
+      }
+      .change-city {
+        display: block;
+        margin: 20px auto 30px auto;
+        padding: 18px 30px;
+        font-weight: 600;
+        font-size: 15px;
+        background-color: #1a64d6;
+        color: white;
+        box-shadow: 5px 5px 10px rgb(0, 0, 0);
+        border: 1px solid #1a64d6;
+        border-radius: 30px;
+        transition: all 200ms ease-out;
+      }
+      button:hover {
+        background-color: white;
+        cursor: pointer;
+        color: #1a64d6;
+      }
+      li:hover {
+        background-color: #fffbef;
+        cursor: pointer;
+      }
+      .coded {
+        font-family: monospace;
+        font-size: 18px;
+        font-weight: light;
+        text-align: center;
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 class="coloremoji">🌤</h1>
+      <h1 class="coloremoji2">Currently 21° in Tokyo</h1>
+      <h2 class="degree">13° / <span class="degree2">23°</span></h2>
+      <ul class="tomorrow">
+        <li class="tomorrow-deg">
+          <h3>🌧Tomorrow</h3>
+          <p class="tomorrow-deg1">10° / <strong> 22°</strong></p>
+        </li>
+
+        <li class="tomorrow-deg">
+          <h3>🌥 Saturday</h3>
+          <p class="tomorrow-deg1">15° / <strong> 17°</strong></p>
+        </li>
+
+        <li class="tomorrow-deg">
+          <h3>☀️ Sunday</h3>
+          <p class="tomorrow-deg1">25° / <strong>28°</strong></p>
+        </li>
+      </ul>
+
+      <button class="change-city">Change city</button>
+
+      <p class="coded">Coded by Kadiri Adeyinka</p>
+    </div>
+  </body>
+</html>
